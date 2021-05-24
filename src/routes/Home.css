@@ -5,15 +5,15 @@
 .loader {
   width: 100%;
   height: 100%;
-  align-items: center;
-  display: flex;
-  justify-content: center;
 }
 
 .loader-text {
   font-size: 20px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-weight: 300;
 }
-
 .movies {
   width: 85%;
   margin: 0px auto;
