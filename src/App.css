@@ -1,15 +1,23 @@
+.container {
+  height: 100%;
+}
+
 .loader {
   width: 100%;
-  height: 900px;
+  height: 100%;
   align-items: center;
   display: flex;
   justify-content: center;
 }
 
 .loader-text {
-  font-size: 200px;
+  font-size: 20px;
 }
 
 .movies {
+  width: 85%;
+  margin: 0px auto;
   display: flex;
+  flex-wrap: wrap;
+  padding: 50px;
 }
