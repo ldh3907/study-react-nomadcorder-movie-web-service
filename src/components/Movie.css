@@ -6,8 +6,17 @@ body {
   background-color: #eff3f7;
 }
 
+.movies a {
+  width: 500px;
+  height: 220px;
+  margin: 70px auto;
+  text-decoration: none;
+}
+a .movie-summary {
+  text-decoration-line: underline;
+}
 .movie {
-  width: 40%;
+  width: 100%;
   height: auto;
   margin: 70px auto;
   display: flex;
@@ -29,6 +38,7 @@ body {
 }
 .movie-data {
   text-align: center;
+  margin-right: auto;
 }
 .movie-title {
   text-align: left;
